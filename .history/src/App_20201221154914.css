@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper--btn {
+  width: 80vw;
+  height: 70vh;
+  background: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

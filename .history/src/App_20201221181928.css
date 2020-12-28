@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper--btn {
+  border: 2px solid #e3e3e3;
+  border-radius: 15px;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border-radius: 10px;
+  color: rgb(240, 239, 244);
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 20px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+}
